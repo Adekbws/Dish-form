@@ -1,0 +1,29 @@
+body{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.res-data{
+    div{
+        margin-top: 0.3em;
+        span:first-child{
+            font-weight: bold;
+            margin-right: 0.2em;
+        }
+        span:last-child{
+            font-weight: 500;
+            color: green;
+        }
+    }
+}
+
+form {
+    width: 300px;
+    label{
+        margin-top: 1em;
+    }
+    button{
+        margin-top: 1em;
+    }
+}
